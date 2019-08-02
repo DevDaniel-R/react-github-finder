@@ -22,6 +22,7 @@ const Users = ({ users, loading }) => {
     loading: PropTypes.bool.isRequired
   }
 
+  //inline style (grid)
 const userStyle = {
   display:'grid',
   gridTemplateColumns: 'repeat(3, 1fr)',
